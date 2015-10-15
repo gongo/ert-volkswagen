@@ -37,6 +37,8 @@
 
 (require 'ert)
 (require 'cl-macs) ;; cl-letf
+(unless (require 'nadvice nil t) ;; version< 24.4
+  (error "ert-volkswagen required Emacs 24.4 or later"))
 
 (defconst ert-volkswagen->ci-list
   '("CI" "TRAVIS" "CIRCLECI" "JENKINS_URL"))
