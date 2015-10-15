@@ -15,6 +15,10 @@ Usage
 
 If running under CI (detail described later), to enable `volkswagen-mode` (successful all test. no major/minor mode) automatically.
 
+### Require
+
+Emacs 24.4 or later
+
 ### Example
 
 ```
