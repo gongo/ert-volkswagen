@@ -15,6 +15,25 @@ Usage
 
 If running under CI (detail described later), to enable `volkswagen-mode` (successful all test. no major/minor mode) automatically.
 
+### Example
+
+```
+$ cd example/
+$ cask
+$ cask exec ert-runner
+(snip)
+Ran 3 tests in 0.045 seconds
+3 unexpected results:
+   FAILED  ert-volkswagen-example-test/date-of-founded
+   FAILED  ert-volkswagen-example-test/exhaust-gas-test
+   FAILED  ert-volkswagen-example-test/message
+
+$ CI=1 cask exec ert-runner
+...
+
+Ran 3 tests in 0.000 seconds
+```
+
 ### Functions
 
 ```lisp
