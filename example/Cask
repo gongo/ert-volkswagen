@@ -1,0 +1,5 @@
+(source melpa)
+
+(package-file "ert-volkswagen-example.el")
+
+(depends-on "ert-runner")
