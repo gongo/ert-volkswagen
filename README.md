@@ -21,22 +21,9 @@ Emacs 24.4 or later
 
 ### Example
 
-```
-$ cd example/
-$ cask
-$ cask exec ert-runner
-(snip)
-Ran 3 tests in 0.045 seconds
-3 unexpected results:
-   FAILED  ert-volkswagen-example-test/date-of-founded
-   FAILED  ert-volkswagen-example-test/exhaust-gas-test
-   FAILED  ert-volkswagen-example-test/message
+https://github.com/gongo/ert-volkswagen-example
 
-$ CI=1 cask exec ert-runner
-...
-
-Ran 3 tests in 0.000 seconds
-```
+![](image/ert-volkswagen-example.png)
 
 ### Functions
 
